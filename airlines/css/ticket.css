@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(rgba(72, 88, 88, 0.5),rgba(72, 88, 88, 0.5)),url();
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.booking-form-box{
+    max-width: 420px;
+    border: 1.5px solid white;
+    margin: 7% auto 0;
+}
+.input-grp{
+    margin: 10px;
+}
+
+nav{
+    width: 100%;
+    background: black;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+    float: left;
+}
+li{
+    float: left;
+}
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+}
+nav a:hover{
+    transition: 0.6s;
+    text-transform: uppercase;
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.radio-btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+.radio-btn span{
+    color: #000;
+    margin-right: 5px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.custom-select{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-family:'Times New Roman', Times, serif;
+}

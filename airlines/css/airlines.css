@@ -1,0 +1,129 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item{
+    flex-wrap: right;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    border: 50px, solid, red;
+    margin: 35px;
+    padding: 50px;
+}
+
+.container{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzskncY8BlrF1mYLDWQJ6ZfFO071JT9TtL-A&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+    height: fit-content;
+    width: fit-content;
+    background-size: contain;
+}
+
+
+.login{
+    width: 290%;
+    height: 180%;
+    margin: auto;
+    overflow: none;
+    margin: 15, 0, 0, 450;
+    padding: 57px;
+    border-radius: 15px;
+    background-color: rgb(196, 214, 196);
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: rgb(34, 125, 211);
+    padding: 10px;
+}
+label{
+    color: black;
+    font-size: 17px;
+}
+#Uname{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#log{
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(34, 125, 211);
+}
+#log:hover{
+    color: red;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+
+span{
+    color: black;
+    font-size: 17px;
+}
+.arrange{
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    background: black;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 120px;
+    list-style: none;
+    float: left;
+}
+li{
+    float: left;
+}
+.logo img{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+}
+nav a:hover{
+    background: red;
+    transition: 0.6s;
+    text-transform: uppercase;
+    color:white;
+}
